@@ -26,7 +26,7 @@ export default class hexClock extends HTMLElement {
     }
 
     setBackgroundColor() {
-        document.body.setAttribute('style', `background: rgb(${this.RGB[0]}, ${this.RGB[1]}, ${this.RGB[2]})`);
+        document.body.setAttribute('style', `background: rgb(${this.RGB[0]}, ${this.RGB[1]}, ${this.RGB[2]}); transition: ease-in .6s`);
     }
 
     render() {
